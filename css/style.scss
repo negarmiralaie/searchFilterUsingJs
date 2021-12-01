@@ -26,7 +26,7 @@ html {
 
 main {
     background-color: #eee;
-    height: 70vh;
+    min-height: 70vh;
     padding: 5rem;
     display: flex;
     flex-direction: column;
@@ -62,5 +62,21 @@ main {
         }
     }
 
+    ul{
+        list-style: none;
+        background-color: white;
+        margin: 1rem;
+        border-radius: 0.5rem;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        li{
+            display: flex;
+            align-items: center;
+            height: 5rem;
+            padding: 0 1.5rem;
+        }
+    }
 
 }

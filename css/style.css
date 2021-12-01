@@ -28,7 +28,7 @@ html {
 
 main {
   background-color: #eee;
-  height: 70vh;
+  min-height: 70vh;
   padding: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,5 +82,31 @@ main .search-form label {
   font-size: 2.2rem;
   padding-left: 1.5rem;
   cursor: pointer;
+}
+
+main ul {
+  list-style: none;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+  padding: 0 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
